@@ -1,0 +1,260 @@
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --lightPink: hsl(321, 100%, 78%);
+    --lightRed: hsl(0, 100%, 63%);
+    --white: hsl(207, 100%, 98%);
+    --dark: hsl(192, 100%, 9%);
+    --gray: #bdbdbd;
+    font-family: 'Poppins 400';
+    color: var(--dark);
+}
+
+@font-face {
+    font-family: 'Poppins 400';
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins 600';
+    src: url(fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins 700';
+    src: url(fonts/Poppins-Bold.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header img {
+    margin: 20px;
+    height: 25px;
+}
+header button {
+    float: right;
+    border: 1px solid var(--lightPink);
+    background-color: var(--white);
+    padding: 4px 15px;
+    border-radius: 22px;
+    font-size: 12px;
+    color: var(--lightPink);
+    margin: 20px;
+    cursor: pointer;
+}
+
+.clear-float {
+    clear: both;
+}
+
+/* SECTION GET STARTED */
+
+#get-started {
+    padding-top: 100px;
+
+}
+
+#get-started h2 {
+    color: var(--dark);
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Poppins 600';
+}
+
+#get-started p {
+    color: var(--dark);
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+#get-started button {
+    background-color: var(--lightPink);
+    color: var(--white);
+    font-size: 18px;
+    padding: 15px 50px;
+    font-family: 'Poppins 600';
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0px 9px 3px -3px #efefef;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#get-started button:active {
+    transform: translateY(2px);
+}
+
+#get-started img {
+    width: 75vw;
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.counters {
+    width: 75vw;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.counters .counter-group {
+    display: inline-block;
+    width: 45%;
+}
+
+.counters .counter-group .icon {
+    width: 40px;
+    margin-left: 70px;
+}
+
+.counters .counter-group .icon img{
+    max-width: 100%;
+}
+
+.counters .counter-group h3 {
+    color: var(--dark);
+    font-family: 'Poppins 600';
+    font-size: 50px;
+    margin: 0;
+}
+
+.counters .counter-group h5 {
+    color: var(--gray);
+    font-family: 'Poppins 400';
+    margin: 0;
+}
+
+/* SECTION GROW TOGETHER */
+
+#grow-together h2 {
+    margin-top: 0px;
+}
+
+#grow-together .background {
+    background-color: #F6FBFF;
+    margin-top: -7px;
+}
+
+#grow-together .background div{
+    display: inline-block;
+}
+
+
+#grow-together .content {
+    max-width: 47%;
+    padding-left: 100px;
+}
+
+#grow-together .picture {
+    max-width: 47%;
+    width: 300px;
+}
+
+#grow-together .picture img {
+    max-width: 100%;
+}
+
+#flowing-conversations {
+    margin-top: 0px;
+}
+
+#flowing-conversations .background{
+    margin-top: -7px;
+}
+
+#flowing-conversations .background div{
+    display: inline-block;
+}
+
+#flowing-conversations .content {
+    max-width: 47%;
+    padding-left: 100px;
+}
+
+#flowing-conversations .picture {
+    max-width: 47%;
+    width: 300px;
+    padding-left: 100px;
+}
+
+#flowing-conversations .picture img {
+    max-width: 100%;
+}
+
+#your-users h2 {
+    margin-top: 0px;
+}
+
+#your-users .background {
+    background-color: #F6FBFF;
+    margin-top: -7px;
+}
+
+#your-users .background div{
+    display: inline-block;
+}
+
+
+#your-users .content {
+    max-width: 47%;
+    padding-left: 100px;
+}
+
+#your-users .picture {
+    max-width: 47%;
+    width: 300px;
+}
+
+#your-users .picture img {
+    max-width: 100%;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    margin-top: 100px;
+    color: var(--white);
+}
+
+footer .background {
+    margin-top: -7px;
+    background-color: #00252E;
+}
+
+footer .identity {
+    display: inline-block;
+    width: 45%;
+    padding-left: 40px;
+}
+
+footer .newsletter {
+    display: inline-block;
+    width: 45%;
+    padding-left: 40px;
+}
+
+footer input[type=button] {
+    background-color: var(--lightPink);
+    border: none;
+    color: var(--white);
+    padding: 5px 25px;
+    font-size: 12px;
+    font-family: 'Poppins 600';
+    margin-left: 30px;
+    border-radius: 6px;
+}
+
+footer input[type=email] {
+    padding: 5px 30px 5px 5px;
+    border: none;
+    border-radius: 6px;
+}
